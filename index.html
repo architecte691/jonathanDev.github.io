@@ -4,16 +4,82 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Version 1</title>
+    <link rel="stylesheet" href="static/css/style.css">
+    <link rel="stylesheet" href="static/css/materialize.css">
+    <title>jonaDev</title>
 </head>
 <body>
-    <h2>JonathanDev</h2>
-    <p>
-        Nous oeuvrons dans les developpements des applications Web et Android.
-    </p>
-    <h3>Jonathan MWAMBA et Merdi AKELAX</h3>
-    <p>
-        Nous somme une equipe de developpeeus qualifiés.
-    </p>
+    <div class="text-center">
+        <h3 class="display-4 amber-text truncate">jonaDev</h3>
+        <h5 class="amber-text truncate">
+            Nous oeuvrons dans le domaine de montage vidéo et devéloppement des applications web et android
+        </h5>
+    </div>
+    <div class="carousel carousel-slider center">
+        <div class="carousel-fixed-item center">
+            <a href="#contact" class="btn waves-effect white grey-text darken-text-2">Contact</a>
+        </div>
+        <div class="carousel-item white amber-text" style="background-image: url('static/img/img7.jpg'); background-repeat: no-repeat;" href="#one!">
+            <h2 class="text-right">Master class <br>
+                Formation sur le montage vidéo avec Jospin BENAMEYI assisté par <br>Jonathan MWAMBA et organisé par JB Commubication
+            </h2>
+        </div>
+        <div class="carousel-item white amber-text" style="background-image: url('static/img/img6.jpg'); background-repeat: no-repeat;" href="#two!">
+            <h2>Nos participants</h2>
+            <p class="white-text">This is your second panel</p>
+        </div>
+        <div class="carousel-item white amber-text" style="background-image: url('static/img/img5.jpg'); background-repeat: no-repeat;" href="#three!">
+            <h2>Third Panel</h2>
+            <p class="white-text">This is your third panel</p>
+        </div>
+        <div class="carousel-item white amber-text" style="background-image: url('static/img/img4.jpg'); background-repeat: no-repeat;" href="#four!">
+            <h2>Fourth Panel</h2>
+            <p class="white-text">This is your fourth panel</p>
+        </div>
+    </div>
+    <br>
+    <footer class="page-footer amber">
+        <div class="container">
+            <div class="row">
+            <div class="col l6 s12">
+                <h5 class="white-text">Nos service</h5>
+                <p class="grey-text text-lighten-4">
+                    Nous oeuvrons dans le montage vidéo et devéloppement des applications web et android.
+                </p>
+            </div>
+            <div class="col l4 offset-l2 s12" id="contact">
+                <h5 class="white-text">Contact</h5>
+                <ul>
+                <li><a class="grey-text text-lighten-3" href="https://web.facebook.com/Jonathan-Mwamba-552992548140541">Facebook</a></li>
+                <li><a class="grey-text text-lighten-3" href="#!">Whatsapp: +243 811 871 691</a></li>
+                <li><a class="grey-text text-lighten-3" href="#!">Téléphone: +243 811 871 691</a></li>
+                <li><a class="grey-text text-lighten-3" href="mailto:johntshis@gmail.com">E-mail</a></li>
+                </ul>
+            </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container">
+            © 2021 Copyright by
+            <a class="grey-text text-lighten-4 right" href="#!">Jonathan MWAMBA</a>
+            </div>
+        </div>
+        <script src="static/js/jquery.js"></script>
+        <script src="static/js/materialize.js"></script>
+        <script src="static/js/main.js"></script>
+        <script src="static/js/app.js"></script>
+        <script>
+             var instance = M.Carousel.init({
+                fullWidth: true,
+                indicators: true
+            });
+            // Or with jQuery
+
+            $('.carousel.carousel-slider').carousel({
+                fullWidth: true,
+                indicators: true
+            });
+        </script>
+    </footer>
 </body>
 </html>

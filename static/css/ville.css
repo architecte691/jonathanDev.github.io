@@ -1,0 +1,19 @@
+section,nav{
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #cccccc80;
+    transition: all 0.5s;
+}
+section:hover{
+    box-shadow: 0 0 10px 1px #cccccc80;
+}
+
+.m-li{
+    margin: 0 8%;
+    text-align: center;
+}
+.m-li section{
+    padding: 2px 16%;
+    max-height: 73vh;
+    overflow-y: auto;
+}

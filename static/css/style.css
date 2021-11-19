@@ -1,0 +1,96 @@
+.connexion
+{
+    width:50%;
+    margin-left: 25%;
+    text-align: center;
+    border: 1px solid rgb(201, 201, 201);
+    margin-top: 100px;
+    border-radius: 10px 10px;
+    transition: 2s all;
+}
+.connexion:hover{
+    transition: 1s all;
+    box-shadow: 4px 4px 4px gray;
+}
+.colored-blue{
+    color:blue;
+}
+.logo-back
+{
+    background-image: url("../img/logo-rdc.png");
+    background-size: 15% 15%;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    font-family: arial sans-serif;
+}
+.btn-rdc{
+    background-color: rgba(0, 140, 255, 0.884);
+}
+.btn-rdc:hover{
+    background-color: rgb(0, 102, 255);
+}
+.carte
+{
+    width: 45%;
+    margin-left: 40%;
+    margin-top: 25px;
+}
+.logo-menu
+{
+    width: 50px;
+    height: 50px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.notifications
+{
+    width:49%;
+    float:left;
+}
+.notifications input{
+    width: 80%;
+    float: left;
+}
+.messages{
+    width:49%;
+    float:right;
+}
+.text-center
+{
+    text-align: center;
+}
+.scroller-y{
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+.pc{
+    height: 483px;
+}
+.chat-box{
+    border: 1px solid rgb(226, 226, 226);
+    box-shadow: 4px 4px 4px inset rgb(224, 221, 221);
+    height: 450px;
+    width:49%;
+    margin-right: 1%;
+    float: right;
+    border-radius: 4px 4px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+.gauche{
+    width: 50%;
+    margin-left: 1%;
+    background-color: #e1f5fe;
+    border-radius: 10px 15px;
+}
+.droite{
+    width: 50%;
+    margin-left: 49%;
+    border-radius: 10px 15px;
+    background-color: #82b1ff;
+}
+.text-right
+{
+    text-align: right;
+}

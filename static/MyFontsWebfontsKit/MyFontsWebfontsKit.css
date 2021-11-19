@@ -1,0 +1,58 @@
+/**
+ * @license
+ * MyFonts Webfont Build ID 4081417, 2021-05-04T12:19:44-0400
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: ClarikaGeometric-Medium by The Refinery
+ * URL: https://www.myfonts.com/fonts/the-refinery/clarika/geometric-medium/
+ * Copyright: Copyright © 2017 by The Refinery LLC. All rights reserved.
+ * 
+ * 
+ * 
+ * © 2021 MyFonts Inc
+*/
+
+@font-face {
+    font-family: "ClarikaGeometric-Medium";
+    src: url('webFonts/ClarikaGeometricMedium/font.woff2') format('woff2'), url('webFonts/ClarikaGeometricMedium/font.woff') format('woff');
+}
+
+@font-face {
+    font-family: "Lexend-Bold";
+    src: url('webFonts/Lexend/Lexend-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: "Lexend-ExtraBold";
+    src: url('webFonts/Lexend/Lexend-ExtraBold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: "Lexend-Light";
+    src: url('webFonts/Lexend/Lexend-Light.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: "Lexend-Medium";
+    src: url('webFonts/Lexend/Lexend-Medium.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: "Lexend-Regular";
+    src: url('webFonts/Lexend/Lexend-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: "Lexend-SemiBold";
+    src: url('webFonts/Lexend/Lexend-SemiBold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: "Lexend-Thin";
+    src: url('webFonts/Lexend/Lexend-Thin.ttf') format('truetype');
+}

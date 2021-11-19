@@ -1,0 +1,137 @@
+h1,
+h2,
+h3,
+h4,
+h5 {
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+.btn:hover {
+    color: rgb(165, 213, 252);
+}
+
+button {
+    margin: 2px;
+    border: 1px solid #44caffd7 !important;
+}
+
+h4 {
+    color: rgba(119, 119, 119, 0.733);
+    font-size: 16px;
+}
+
+img {
+    width: 100%;
+    max-width: 150px;
+    border-radius: 7px;
+}
+
+input,
+select {
+    width: 90%;
+}
+
+section {
+    border-radius: 5px;
+    border: 1px solid #cccccc;
+}
+
+.form>div {
+    height: 72vh;
+    overflow-y: auto;
+    background-color: rgba(231, 231, 231, 0.11);
+}
+
+.form {
+    padding: 10px 15px;
+    text-align: center;
+    border-top: 1px solid #89898b75;
+    background-color: white;
+}
+
+.form:hover {
+    box-shadow: 0 0 10px 1px #89898b75;
+}
+
+.form h4 {
+    font-size: 19px;
+    color: rgba(63, 66, 68, 0.5);
+    font-size: 16px;
+}
+
+.form input {
+    margin: 0 20px;
+}
+
+.form .btn {
+    border: 1px solid #39e6cf;
+}
+
+.form .btn:hover {
+    color: white;
+    background-color: #7c9fff;
+}
+
+.li-del {
+    text-align: center;
+}
+
+.list-row {
+    padding: 10px 0;
+    border-top: 1px solid silver;
+}
+
+.list-row:hover {
+    background: rgba(192, 192, 192, 0.096);
+}
+
+.list-row img {
+    border-radius: 5px;
+}
+
+.ajout section {
+    margin: 0 10px;
+    color: rgba(63, 66, 68, 0.5);
+    text-align: center;
+    border-top: 1px solid #89898b75;
+}
+
+.ajout h3 {
+    color: rgb(32, 32, 32);
+}
+
+.ajout button {
+    width: 100%;
+    font-size: 20px;
+    color: #39e6cf;
+    border-radius: 0;
+    border: 1px solid rgb(54, 166, 240);
+    color: white;
+    background: linear-gradient(45deg, #398ae6, #191cd1);
+}
+
+.ajout section:hover {
+    box-shadow: 0 0 10px 1px #89898b75;
+}
+
+.ajout-form section {
+    height: 82vh;
+    margin: 0 10px;
+    text-align: center;
+    overflow-y: auto;
+}
+
+.ajout-form section:hover {
+    box-shadow: 0 0 10px 1px #89898b75;
+}
+
+.ajout-form form .b {
+    width: 100%;
+    font-size: 20px;
+    color: #39e6cf;
+    border-radius: 0;
+    border: 1px solid #39e6cf;
+    color: white;
+    background: linear-gradient(45deg, #3967e6, #2713df);
+}

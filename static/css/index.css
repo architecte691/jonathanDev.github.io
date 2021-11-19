@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    /* 
+    background: url(../img/Drapeau-Republique-democratique-du-Congo_240-gif.gif); */
+    background-position: center 10vh;
+    background-repeat: no-repeat;
+    padding: 0;
+    margin: 0;
+}
+
+.img-left {
+    position: fixed;
+    width: 150px;
+}
+
+.img-left img {
+    margin-top: -13px;
+    margin-left: -25px;
+    height: 100px;
+    width: 150px;
+}
+
+.img-right {
+    position: fixed;
+    width: 100%;
+}
+
+.img-right img {
+    float: right;
+    margin-top: -40px;
+    height: 100px;
+    width: 150px;
+}
+
+.img-center {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-center img {
+    width: 150px;
+}
+
+.img-center h1 {
+    margin-top: 20px;
+    margin-bottom: 0 !important;
+    text-align: center;
+    font-size: 80px;
+    text-shadow: 0 0 10px rgba(89, 96, 102, 0.418);
+}
+
+.message {
+    position: relative;
+    color: #7196f3;
+    box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.150);
+    transition: all 1.5s;
+    background-color: #fafbfc81;
+}
+
+.toggle-form:hover {
+    background: linear-gradient(90deg, #9dd6e757 0%, #85a4f162 100%);
+    transition: all 0.3s;
+}
+
+#form {
+    display: none;
+    transition: all 1s;
+}
+
+.form {
+    margin: 20px;
+}
+
+.form input {
+    width: 100%;
+    padding: 7px 0;
+    border-radius: 0;
+}
+
+.form-container {
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.affiche-form {
+    border-radius: 3px;
+    color: #757474;
+    width: 100%;
+    max-width: 400px;
+    display: block;
+    background: white;
+    box-shadow: 0px -2px 20px 1px rgba(0, 0, 0, 0.170);
+    transition: all .5s;
+}
+
+.btn-connection {
+    width: 100%;
+    font-size: 20px;
+    padding: 5px 70px;
+    border: #85a4f1;
+    border-radius: 3px;
+    background: linear-gradient(90deg, #6a73ebce 0%, #cfecead8 100%);
+}
+
+.btn-connection:hover {
+    color: white;
+    background: linear-gradient(90deg, #45eed79c 0%, #6a73ebbd 100%);
+    transition: all 0.7s;
+    box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.445);
+}
+
+.footer-img {
+    height: 300px;
+    width: 95.5%;
+    margin-top: 1px;
+    margin-left: 2.5%;
+    background-size: 100% 90%;
+    border-radius: 50px 50px;
+    box-shadow: 2px 4px 4px 4px rgb(0, 23, 150);
+    /* transition: 5s All; */
+}
+
+@media (max-width: 768px) {
+    .img-center h1 {
+        margin-top: 40px;
+        text-align: center;
+        font-size: 40px;
+        text-shadow: 0 0 10px rgba(89, 96, 102, 0.418);
+    }
+}
