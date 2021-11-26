@@ -1,7 +1,7 @@
 .connexion
 {
-    width:50%;
-    margin-left: 25%;
+    width:70%;
+    margin-left: 15%;
     text-align: center;
     border: 1px solid rgb(201, 201, 201);
     margin-top: 100px;
@@ -93,4 +93,16 @@
 .text-right
 {
     text-align: right;
+}
+.cadre-droit
+{
+    width: 49%;
+    height: auto;
+    float: left;
+}
+.cadre-gauche
+{
+    width: 49%;
+    height: auto;
+    float: right;
 }
