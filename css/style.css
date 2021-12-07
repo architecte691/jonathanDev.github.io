@@ -178,7 +178,7 @@ img {
 
 .form-control:focus {
      border-color: #ffffff !important;
-     box-shadow: 0 0 0 .2rem rgba(255, 255, 255, .25);
+     box-shadow: 0 0 0 .2rem rgba(255, 0, 0, 0.5);
 }
 
 .navbar-form input {
@@ -282,14 +282,14 @@ button {
 
 .navigation.navbar-dark .navbar-nav .nav-link:focus,
 .navigation.navbar-dark .navbar-nav .nav-link:hover {
-     color: #000;
+     color: rgb(255, 0, 0);
 }
 
 .navigation.navbar-dark .navbar-nav .active>.nav-link,
 .navigation.navbar-dark .navbar-nav .nav-link.active,
 .navigation.navbar-dark .navbar-nav .nav-link.show,
 .navigation.navbar-dark .navbar-nav .show>.nav-link {
-     color: #05186b;
+     color: #ff0000;
 }
 
 .navbar-expand-md .navbar-nav {
@@ -306,13 +306,13 @@ button {
      display: inline-block;
      padding: 6px 35px;
      border-radius: 25px;
-     color: #292e39;
+     color: #6e1818;
      font-size: 17px;
 }
 
 .sign_btn a:hover {
      color: #fff;
-     background: #020586;
+     background: #ff0000;
 }
 
 
@@ -343,8 +343,8 @@ button {
 /** banner section **/
 
 .banner_main {
-     /*background: url(../images/banner.jpg);*/
-     background-color: #020586;
+     background: url(../images/banner.jpg);
+     /* background-color: #ff0000; */
      background-repeat: no-repeat;
      min-height: 700px;
      display: flex;
@@ -387,7 +387,7 @@ button {
 .text-bg a {
      font-size: 17px;
      background-color: #fff;
-     color: #000;
+     color: rgb(109, 15, 15);
      font-weight: 500;
      padding: 13px 0px;
      width: 100%;
@@ -399,7 +399,7 @@ button {
 }
 
 .text-bg a:hover {
-     background-color: #020586;
+     background-color: #ff0000;
      color: #fff;
      transition: ease-in all 0.5s;
      border-radius: 25px
@@ -457,7 +457,7 @@ button {
 
 .book_btn {
      font-size: 17px;
-     background-color: #000;
+     background-color: rgb(255, 0, 0);
      color: #fff;
      font-weight: 500;
      padding: 5px 0px;
@@ -471,7 +471,7 @@ button {
 }
 
 .book_btn:hover {
-     background-color: #020586;
+     background-color: #ff0000;
      color: #fff;
      transition: ease-in all 0.5s;
      border-radius: 25px
@@ -571,7 +571,7 @@ button {
 /** about section **/
 
 .about {
-     background: #353e4e;
+     background: #490101;
      margin-top: 60px;
      padding: 90px 0;
 }
@@ -619,7 +619,7 @@ button {
 
 .read_more {
      font-size: 17px;
-     background-color: #000;
+     background-color: rgb(250, 0, 0);
      color: #fff;
      padding: 13px 0px;
      width: 100%;
@@ -631,7 +631,7 @@ button {
 }
 
 .read_more:hover {
-     background: #020586;
+     background: #ff0000;
      color: #fff;
      transition: ease-in all 0.5s;
      border-radius: 25px;
@@ -665,7 +665,7 @@ button {
 
 .test_box {
      padding: 30px 25px;
-     background: #020586;
+     background: #ff0000;
 }
 
 .testimonial_Carousel .test_box h4 {
@@ -702,12 +702,12 @@ button {
 .testimonial_Carousel .carousel-indicators li {
      width: 20px;
      height: 20px;
-     background: #262e31;
+     background: #381f1f;
      border-radius: 10px;
 }
 
 .testimonial_Carousel .carousel-indicators li.active {
-     background: #020586;
+     background: #ff0000;
 }
 
 .carousel-control-next-icon,
@@ -723,7 +723,7 @@ button {
 
 .main_form {
      padding: 50px 30px;
-     background: #020586;
+     background: #ff0000;
      margin-top: -260px;
      border-radius: 25px;
 }
@@ -747,7 +747,7 @@ button {
      margin-bottom: 20px;
      width: 100%;
      background: #fff;
-     color: #292e39;
+     color: #4b0303;
      font-size: 18px;
      font-weight: normal;
      border-radius: 15px;
@@ -757,7 +757,7 @@ button {
 .main_form .send_btn {
      font-size: 17px;
      transition: ease-in all 0.5s;
-     background-color: #000;
+     background-color: rgb(252, 0, 0);
      color: #fff;
      padding: 13px 0px;
      margin: 0 auto;
@@ -769,7 +769,7 @@ button {
 }
 
 .main_form .send_btn:hover {
-     background-color: #020586;
+     background-color: #ff0000;
      transition: ease-in all 0.5s;
      color: #fff;
      border-radius: 25px;
@@ -781,7 +781,7 @@ button {
 }
 
 .multi {
-     color: #020586;
+     color: #ff0000;
      font-weight: bold;
      font-size: 40px;
 }
@@ -792,7 +792,7 @@ button {
 
 .footer {
      margin-top: 265px;
-     background: #242423;
+     background: #ff0000;
      padding-top: 85px;
      text-align: center;
 }
@@ -843,7 +843,7 @@ button {
 }
 
 .copyright a:hover {
-     color: #020586;
+     color: #ff0000;
 }
 
 
@@ -852,5 +852,5 @@ button {
 .cadrage
 {
      border-radius: 20px 30px;
-     box-shadow: 4px 4px 4px blue inset;
+     box-shadow: 4px 4px 4px #ff0000 inset;
 }
