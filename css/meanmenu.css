@@ -3,7 +3,7 @@
      display: none;
 }
  .mean-container .mean-bar {
-     background: #000;
+     background: rgb(255, 0, 0);
      float: left;
      min-height: 40px;
      padding: 5px 0;
@@ -98,11 +98,11 @@
      padding: 1em 25%;
 }
  .mean-container .mean-nav ul li a:hover {
-     background: #252525;
-     background: rgba(255, 255, 255, 0.1);
+     background: #ff0000;
+     background: rgba(255, 0, 0, 0.404);
 }
  .mean-container .mean-nav ul li a.mean-expand {
-     background: rgba(255, 255, 255, 0.1) none repeat scroll 0 0;
+     background: rgba(255, 0, 0, 0.397) none repeat scroll 0 0;
      border: medium none;
      font-weight: 400;
      height: 22px;
@@ -118,7 +118,7 @@
      font-size: 18px !important;
 }
  .mean-container .mean-nav ul li a.mean-expand:hover {
-     background: rgba(0, 0, 0, 0.9) none repeat scroll 0 0;
+     background: rgba(255, 0, 0, 0.9) none repeat scroll 0 0;
      color: #ffffff;
 }
  .mean-container .mean-push {
@@ -145,7 +145,7 @@
      display: none;
 }
  .mean-container .mean-nav ul li a.mean-expand:hover, .mean-container .mean-nav ul li a.mean-expand:focus {
-     background: #0f69c6 ;
+     background: #ff0000 ;
      color: #ffffff;
 }
  .mean-container .mean-nav ul li a:hover {

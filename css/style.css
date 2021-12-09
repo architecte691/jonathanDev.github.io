@@ -221,7 +221,7 @@ button {
 }
 
 .theme_bg {
-     background: #38c8a8;
+     background: #ff0000;
 }
 
 .margin_top_30 {
@@ -571,10 +571,15 @@ button {
 /** about section **/
 
 .about {
-     background: #490101;
+     background: #ffffff;
+     color: red;
      margin-top: 60px;
      padding: 90px 0;
 }
+/* .about img {
+     box-shadow: 10px 10px 10px rgb(255, 254, 254) inset;
+     border-radius: 90px / 100px;
+} */
 
 .about .titlepage {
      text-align: left;
